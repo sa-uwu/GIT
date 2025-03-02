@@ -1,0 +1,26 @@
+[33mcommit 405e8f2163fde4ca56a798bfce6c8400a3430802[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: saau <nairr9367@gmail.com>
+Date:   Wed Feb 26 14:16:40 2025 +0530
+
+    V3 of index.html
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 3709f37c2719c6e35eda308189ee13a6c0ad3abd[m
+Author: saau <nairr9367@gmail.com>
+Date:   Tue Feb 25 15:21:18 2025 +0530
+
+    this is v2 of index.html
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 833f39d24802ae0d44aea1ab8893efa0a4156407[m
+Author: saau <nairr9367@gmail.com>
+Date:   Tue Feb 25 15:09:28 2025 +0530
+
+    this is 1st index.html
+
+ index.html | 11 [32m+++++++++++[m
+ 1 file changed, 11 insertions(+)
