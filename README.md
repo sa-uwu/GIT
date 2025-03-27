@@ -29,7 +29,7 @@ ________________________________________________________________
 ```bash
 git status                    # Check status  
 git add .                     # Stage all changes
-git diff
+git diff                      # Lists out the changes between your current working directory and your staging area.
 git commit -m "Commit message"  # Commit changes  
 git commit --amend -m "New message"  # Edit last commit message  
 
