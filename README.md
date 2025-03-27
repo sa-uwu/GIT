@@ -29,7 +29,7 @@ ________________________________________________________________
 ```bash
 git status                    # Check status  
 git add .                     # Stage all changes
-git diff                      # Lists out the changes between your current working directory and your staging area.
+git diff                      # Lists out the changes between your current working directory/file and your staging area.
 git commit -m "Commit message"  # Commit changes  
 git commit --amend -m "New message"  # Edit last commit message  
 
@@ -67,9 +67,9 @@ ________________________________________________________________
 
 
 ```bash
+git restore <file>             # To discard accidental changes made to the file (unstaged file)
 git reset --soft HEAD~1        # Undo last commit (keep changes staged)  
-git reset --hard HEAD~1        # Undo last commit and remove changes  
-git restore <file>             # Discard unstaged changes  
+git reset --hard HEAD~1        # Undo last commit and remove changes   
 git checkout -- <file>         # Undo changes to a file  
 
 ```
@@ -108,7 +108,7 @@ ________________________________________________________________
 git log                        # View commit history  
 git log --oneline --graph      # Compact log with a graph  
 git blame <file>               # Show who modified each line
-git diff                       # Shows difference or changes between your current working directory and your staging area. 
+git diff --staged              # Displays the difference/changes between your current working directory/file(staged) and your previous commit
 
 ```
 ________________________________________________________________
