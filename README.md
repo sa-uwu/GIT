@@ -28,7 +28,8 @@ ________________________________________________________________
 
 ```bash
 git status                    # Check status  
-git add .                     # Stage all changes  
+git add .                     # Stage all changes
+git diff
 git commit -m "Commit message"  # Commit changes  
 git commit --amend -m "New message"  # Edit last commit message  
 
@@ -106,7 +107,8 @@ ________________________________________________________________
 ```bash
 git log                        # View commit history  
 git log --oneline --graph      # Compact log with a graph  
-git blame <file>               # Show who modified each line  
+git blame <file>               # Show who modified each line
+git diff                       # Shows difference or changes between your current working directory and your staging area. 
 
 ```
 ________________________________________________________________
