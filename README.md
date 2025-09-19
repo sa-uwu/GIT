@@ -8,7 +8,6 @@
 
 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
-git config --global init.defaultBranch main
 
 ```
 👉 Sets up Git with your name, email, and default branch.
